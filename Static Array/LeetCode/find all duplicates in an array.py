@@ -10,8 +10,6 @@ def duplicates_array(nums):
 
 
 
-
-
 box = [7,3,2,7,8,2,3,4]
 
 print(duplicates_array(box))

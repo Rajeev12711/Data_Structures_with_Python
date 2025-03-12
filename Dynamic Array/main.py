@@ -1,6 +1,6 @@
 class DynamicArray:
 
-    def __init__(self, capacity: int):
+    def __init__(self, capacity):
         self.capacity = capacity
         self.size = 0
         self.arr = [0] * capacity
