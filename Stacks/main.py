@@ -1,5 +1,3 @@
-from sys import getsizeof
-
 class Stack:
     def __init__(self):
         self.arr=[]
