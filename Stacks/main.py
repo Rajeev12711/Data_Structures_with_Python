@@ -10,3 +10,9 @@ class Stack:
 
     def peek(self):
         return self.arr[-1]
+
+    def length(self):
+        return len(self.arr)
+
+    def empty(self):
+        return len(self.arr) == 0
