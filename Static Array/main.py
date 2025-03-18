@@ -44,6 +44,15 @@ def static_array_remove_shift(arr, index, capacity):
         arr[w-1]= arr[w]
     arr[capacity-1] = None
 
+# Reverse an array
+def static_array_reverse(arr):
+    temp = arr[:]
+    k = 0
+    for b in range(len(arr)-1, 0-1, -1):
+        temp[k] = arr[b]
+        k+=1
+    return  temp
+
 
 # Data provide to function call.
 box= ["a", "b", "c", "d", "e", "f", "g", "h", None, None]
@@ -66,3 +75,5 @@ static_array_insert_shift(box, i, n, enter)
 static_array_remove_shift(box, i, n)
 
 static_array_open_position(box, n, enter)
+
+static_array_reverse(box)
