@@ -6,3 +6,13 @@ for z in fruits:
             baskets.remove(y)
             break
 print(len(baskets))
+
+
+
+80
+
+for i in nums:
+            if nums.count(i)>2:
+                for z in range(nums.count(i)-2):
+                    nums.remove(i)
+        return len(nums)
