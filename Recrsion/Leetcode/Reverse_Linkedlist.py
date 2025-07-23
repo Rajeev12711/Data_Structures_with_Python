@@ -7,13 +7,13 @@ class ListNode:
 def reverse(node):
 
     if node.next is None:
-        return node.val
+        return node
 
     new =  reverse(node.next)
 
     node.next.next= node
     node.next = None
-    return node
+    return new
 
 
 head = ListNode(10, ListNode(20, ListNode(30, ListNode(40, ListNode(50, None)))))
