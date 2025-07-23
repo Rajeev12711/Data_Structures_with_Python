@@ -1,4 +1,4 @@
-def climbStairs(n):
+def climb_stairs(n):
     if n in [0, 1, 2]:
         return n
     else:
@@ -10,4 +10,4 @@ def climbStairs(n):
             prev2 = cur
         return cur
 
-print(climbStairs(5))
+print(climb_stairs(44))
