@@ -14,3 +14,7 @@ def bucketSort(nums):
             nums[i] = n
             i += 1
     return nums
+
+arr = [3,4,6,2,8,2,9,10,1]
+sorted_arr = bucketSort(arr)
+print("Sorted array:", sorted_arr)
